@@ -1,0 +1,695 @@
+/* --- Intro paragraph custom style --- */
+.intro-lead {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  font-size: 1.25rem;
+  line-height: 1.7;
+  color: #fafafa;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.08);
+}
+html {
+  scroll-padding-top: 140px !important;
+  scroll-behavior: smooth;
+}
+
+/* --- Staff behavior section --- */
+.staff-block {
+  background: #f7fafd;
+  border-radius: 1.1rem;
+  border-left: 5px solid #00529C;
+  padding-bottom: 0.5rem;
+}
+.staff-heading-box {
+  border-left: 5px solid #00529C;
+  background: #eaf2fa;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+  box-shadow: 0 2px 8px 0 rgba(0,82,156,0.06);
+  width: 100%;
+  text-align: center;
+}
+.staff-heading-box h3 {
+  margin-bottom: 0;
+  font-size: 1.05rem;
+}
+.staff-list > li {
+  margin-bottom: 1.1rem;
+  font-weight: 600;
+  color: #00529C;
+  font-size: 1.08rem;
+}
+.staff-list strong {
+  color: #00529C;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 1.04em;
+  margin-right: 0.1em;
+}
+.staff-list ul {
+  margin-top: 0.3em;
+  margin-bottom: 0.5em;
+  padding-left: 1.2em;
+  font-weight: 400;
+  color: #222;
+  font-size: 1rem;
+}
+.staff-list ul li {
+  margin-bottom: 0.4em;
+  font-weight: 400;
+  color: #222;
+  font-size: 1rem;
+  list-style: disc;
+}
+@media (max-width: 991.98px) {
+  .staff-block {
+    margin-bottom: 1.5rem;
+  }
+  .staff-heading-box {
+    font-size: 1rem;
+    padding: 0.4rem 0.7rem;
+  }
+}
+/* --- Ensure core values columns are always equal height --- */
+#chuan-muc .row.g-4 {
+  display: flex;
+}
+#chuan-muc .col-12.col-md-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+#chuan-muc ul.list-unstyled {
+  flex: 1 1 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+@media (max-width: 991.98px) {
+  #chuan-muc .row.g-4 {
+    display: block;
+  }
+  #chuan-muc .col-12.col-md-6 {
+    display: block;
+  }
+  #chuan-muc ul.list-unstyled {
+    display: block;
+    height: auto;
+  }
+}
+/* --- Core values section: wider and more prominent --- */
+#chuan-muc .card-body {
+  padding-left: 2.5rem !important;
+  padding-right: 2.5rem !important;
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+}
+#chuan-muc .bg-secondary {
+  font-size: 1.25rem;
+  padding-top: 2.2rem !important;
+  padding-bottom: 2.2rem !important;
+}
+#chuan-muc ul {
+  font-size: 1.18rem;
+}
+#chuan-muc .brand {
+  font-size: 1.22em;
+  font-weight: 700;
+}
+#chuan-muc li {
+  line-height: 1.7;
+  margin-bottom: 2rem !important;
+}
+@media (max-width: 991.98px) {
+  #chuan-muc .card-body {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    padding-top: 1.2rem !important;
+    padding-bottom: 1.2rem !important;
+  }
+  #chuan-muc .bg-secondary {
+    font-size: 1.08rem;
+    padding-top: 1.2rem !important;
+    padding-bottom: 1.2rem !important;
+  }
+  section .bg-secondary, section .bg-secondary.text-center {
+    scroll-margin-top: 140px !important;
+  }
+}
+/* --- Uniform leader heading box size --- */
+.leader-block .leader-heading-box {
+  width: 100%;
+  min-height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+.leader-block .leader-heading-box h3 {
+  width: 100%;
+  margin-bottom: 0;
+  font-size: 1.05rem;
+}
+/* --- Leader heading box for section recognition --- */
+.leader-heading-box {
+  border-left: 5px solid #00529C;
+  background: #eaf2fa;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+  box-shadow: 0 2px 8px 0 rgba(0,82,156,0.06);
+}
+/* --- Chuẩn mực hành vi lãnh đạo --- */
+.leader-block {
+  background: #f7fafd;
+  border-radius: 1.1rem;
+  border-left: 5px solid #00529C;
+  padding-bottom: 0.5rem;
+}
+.leader-block h3 {
+  font-size: 1.08rem;
+  letter-spacing: 0.5px;
+}
+.leader-list li {
+  margin-bottom: 1.1rem;
+  padding-left: 0.1rem;
+}
+.leader-list strong {
+  color: #00529C;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.leader-list span {
+  color: #222;
+  font-size: 1rem;
+  font-weight: 400;
+}
+@media (max-width: 991.98px) {
+  .leader-block {
+    margin-bottom: 1.5rem;
+  }
+}
+/* --- Giữ màu chữ menu navbar khi hover/active/focus/click --- */
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:active {
+  color: #00529C!important;
+
+}
+/* --- Card hover motion for vision/mission/value section --- */
+.row.g-4 .card {
+  transition: transform 0.25s cubic-bezier(.4,1.5,.5,1), box-shadow 0.25s cubic-bezier(.4,1.5,.5,1);
+}
+.row.g-4 .card:hover {
+  transform: translateY(-8px) scale(1.045);
+  box-shadow: 0 8px 32px 0 rgba(0,82,156,0.15), 0 1.5px 6px 0 rgba(0,0,0,0.08);
+  z-index: 2;
+}
+/* --- Giá trị cốt lõi đẹp hơn --- */
+.value-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+.value-number {
+  min-width: 2.8em;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #00529C;
+  font-family: 'Poppins', Arial, sans-serif;
+  flex-shrink: 0;
+  line-height: 1.1;
+}
+.value-keyword {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #00529C;
+  text-transform: uppercase;
+  margin-right: 0.5em;
+  flex-shrink: 0;
+  letter-spacing: 0.5px;
+}
+.value-desc {
+  font-size: 1rem;
+  color: #222;
+  font-weight: 400;
+  line-height: 1.5;
+}
+@media (max-width: 575.98px) {
+  .value-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.2rem;
+  }
+  .value-number {
+    font-size: 1.2rem;
+    min-width: 2.2em;
+  }
+  .value-keyword {
+    font-size: 1rem;
+  }
+}
+.brand {
+  color: #00529C !important;
+  font-weight: 700;
+}
+/* ====== RESET & BASE ====== */
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fff;
+  color: #111;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  margin: 0 0 0.5em 0;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* ====== NAVBAR ====== */
+.navbar {
+  background: linear-gradient(180deg, #ffffff, #f8f9fa);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+}
+.navbar-brand img {
+  height: 48px;
+}
+.nav-link {
+  color: #00529C;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* ====== BANNER ====== */
+.banner {
+  background-image: url('https://hoaphatdungquat.vn/wp-content/uploads/2022/01/General-layout-2048x1024.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 320px;
+  position: relative;
+}
+.banner-overlay {
+  position: absolute;
+  top: 0; left: 0; width: 100%; height: 100%;
+  background: rgba(0,0,0,0.35);
+  z-index: 1;
+}
+.banner .row { position: relative; z-index: 2; }
+
+/* ====== SECTION HEADING BANNER ====== */
+.section-heading-banner {
+  background-image: linear-gradient(to right, #00529C 70%, #F8F8F8);
+  padding: 20px 0;
+  position: relative;
+  overflow: hidden;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.main-heading-wrap h3 {
+  color: #fff;
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: 600;
+  margin: 0;
+}
+.banner-pattern {
+  position: absolute;
+  top: 0; right: 0; bottom: 0;
+  width: 40%;
+  z-index: 1;
+  background-image: radial-gradient(rgba(0, 82, 156, 0.5) 15%, transparent 15%);
+  background-size: 12px 12px;
+  mask-image: linear-gradient(to left, rgba(0,0,0,1) 60%, rgba(0,0,0,0) 100%);
+  -webkit-mask-image: linear-gradient(to left, rgba(0,0,0,1) 60%, rgba(0,0,0,0) 100%);
+}
+
+/* ====== CARD & CONTENT BLOCKS ====== */
+.card {
+  border-radius: 12px;
+  border: 1px solid #E5E7EB;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.08), 0 2px 4px -2px rgba(0,0,0,0.04);
+}
+.card-body {
+  padding: 30px 20px;
+}
+.card h3, .card h4 {
+  color: #00529C !important;
+  font-weight: 700;
+}
+
+/* ====== CUSTOM UTILITIES ====== */
+.fw-600 { font-weight: 600; }
+.fs-30 { font-size: 30px; }
+.lh-45 { line-height: 45px; }
+.color-white { color: #fff; }
+.text-primary { color: #00529C !important; }
+.bg-secondary { background: #00529C !important; }
+.text-white { color: #fff !important; }
+.rounded-3 { border-radius: 1rem !important; }
+.py-4 { padding-top: 1.5rem !important; padding-bottom: 1.5rem !important; }
+.mb-4 { margin-bottom: 1.5rem !important; }
+
+/* ====== LISTS & ITEMS ====== */
+.list-unstyled { list-style: none; padding-left: 0; }
+.mb-3 { margin-bottom: 1rem !important; }
+.me-2 { margin-right: 0.5rem !important; }
+
+/* ====== SECTION SPACING ====== */
+.mb-5 { margin-bottom: 3rem !important; }
+.my-5 { margin-top: 3rem !important; margin-bottom: 3rem !important; }
+.pt-5 { padding-top: 3rem !important; }
+.mt-4 { margin-top: 1.5rem !important; }
+.p-4 { padding: 1.5rem !important; }
+.p-5 { padding: 3rem !important; }
+
+/* ====== FOOTER ====== */
+footer.bg-primary {
+  background: #00529C !important;
+  color: #fff;
+}
+
+/* ====== RESPONSIVE ====== */
+@media (max-width: 992px) {
+  .container { padding: 0 8px; }
+  .main-heading-wrap h3 { font-size: 22px; line-height: 32px; }
+  .banner { min-height: 200px; }
+}
+/* ========================
+  MÀU SẮC CHUNG & BIẾN
+======================== */
+.fdx-slogan-code {
+  background: #f4f4f6;
+  padding: 90px 0 60px;
+  width: 100%;
+}
+.fdx-slogan-code .wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+.fdx-slogan-code .title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #00529C;
+  margin-bottom: 12px;
+}
+.fdx-slogan-code .desc {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 32px;
+}
+.slogan-code-right {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.slogan-code-right > .col-md-6 {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+/* ==================================================== */
+/* --- CÀI ĐẶT CHUNG CHO CARD (Giả định màu #004A99) --- */
+/* ==================================================== */
+
+.hpcolor { 
+    color: #004A99 !important; 
+}
+
+.custom-card-style {
+    /* Thiết lập ban đầu */
+    transition: all 0.3s ease-in-out; /* Chuyển động mượt mà */
+    border-radius: 12px; /* Bo góc mềm mại */
+    border: 1px solid #E5E7EB; 
+    text-align: center;
+    /* Bóng đổ nhẹ hơn */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.08), 0 2px 4px -2px rgba(0, 0, 0, 0.04);
+}
+
+.custom-card-style .card-body {
+    padding: 30px 20px;
+}
+
+/* Style cho Icon (Vòng tròn) */
+.icon-wrap {
+    /* Tạo nền tròn màu nhạt cho icon */
+    width: 60px;
+    height: 60px;
+    background-color: #E6F0FF; /* Màu xanh nhạt */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Style cho Tiêu đề Thẻ */
+.custom-card-style .card-title {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+/* Style cho Nội dung mô tả */
+.custom-card-style p {
+    color: #4B5563; 
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* ============================ */
+/* --- HIỆU ỨNG HOVER SINH ĐỘNG --- */
+/* ============================ */
+.custom-card-style:hover {
+    /* Hiệu ứng nâng thẻ lên nhẹ */
+    transform: translateY(-10px); 
+    
+    /* Tăng độ đậm của bóng (3D effect) */
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.15), 0 4px 6px -4px rgba(0, 0, 0, 0.1); 
+    
+    /* Thay đổi màu viền */
+    border-color: #004A99;
+    cursor: pointer;
+}
+
+/* Thay đổi màu ICON và nền khi hover */
+.custom-card-style:hover .icon-wrap {
+    background-color: #004A99; /* Đổi nền sang màu đậm */
+}
+.custom-card-style:hover .icon-wrap i {
+    color: #FFFFFF !important; /* Đổi màu icon sang trắng */
+}
+
+/* Conduct banner top style */
+
+.text {
+    color: #fff;
+    float: left;
+    max-width: 860px;
+    line-height: 1.32;
+    font-weight: 300;
+    font-size: 34px;
+  }
+/* Banner custom style */
+/* Banner custom style */
+.custom-banner {
+  filter: brightness(1.18);
+  background-image: url(https://hoaphatdungquat.vn/wp-content/uploads/2022/01/General-layout-2048x1024.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+.banner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.35);
+  z-index: 1;
+}
+.banner-content {
+  z-index: 2;
+}
+.banner-sub {
+  color: #fff;
+  margin-bottom: 20px;
+  letter-spacing: .9px;
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: left;
+}
+.banner-title {
+  color: #fff;
+  line-height: 1.13;
+  margin: 0;
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 700;
+  font-size: 72px;
+  text-align: left;
+}
+/* Banner custom style */
+.fdx-pageBanner {
+  color: #fff;
+  font-family: 'Gilroy', sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+:root{
+/* Biến màu, font, ... */
+/* ========================
+  CƠ BẢN & BODY
+======================== */
+  --brand: #00529C;
+  --accent: #00b3ff;
+  --body-bg: #ffffff;
+  --text-dark: #111;
+  font-family: "Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* base */
+html,body { height: 100%; background: var(--body-bg); color: var(--text-dark); }
+/* ========================
+  NAVBAR
+======================== */
+
+/* Navbar */
+.navbar {
+/* ========================
+  BANNER TRANG CHỦ
+======================== */
+  background: linear-gradient(180deg, #ffffff, #f8f9fa);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+}
+.logo { height: 36px; }
+.brand-text { font-weight: 600; font-size: .95rem; }
+.nav-link {
+    color: #00529C;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    float: left;
+   }
+/* main spacing because navbar is fixed */
+main.content { padding-top: 90px; }
+
+/* fdx-pageBanner styling to match desired look */
+.fdx-pageBanner {
+  padding: 36px 0 12px;
+}
+.fdx-pageBanner .wrap { max-width: 1200px; margin: 0 auto; padding: 0 16px; }
+.fdx-pageBanner--wrap { display: flex; align-items: center; gap: 24px; flex-wrap: wrap; }
+
+/* kicker text */
+.pageBanner-text {
+  color: #6b7280;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+/* title block: left aligned, large, responsive */
+.pageBanner-title { flex: 1 1 auto; }
+.page-title-lines {
+/* ========================
+  GIỚI THIỆU NGẮN DƯỚI BANNER
+======================== */
+  margin: 0;
+  color: #0b0b0b;
+  font-weight: 800;
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+  font-size: clamp(36px, 7.5vw, 96px);
+  margin-top: 8px;
+  -webkit-font-smoothing:antialiased;
+}
+
+.fdx-conduct-bgtop {
+  padding: 210px 0 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main-heading {
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  border-left: 8px solid #00529C;
+  padding-left: 18px;
+  margin-bottom: 24px;
+  line-height: 1.2;
+}
+/* Section headings (applies to div-based headings too) */
+/* h2 { color: var(--brand); border-left: 5px solid var(--accent); padding-left: 10px; } */
+
+/* Cards */
+.card h3, .card h4.hpcolor, .card h3.hpcolor {
+  color: #00529C !important;
+}
+/* ===List item=== */
+.item {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  padding: 18px 20px;
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+.item:hover {
+  box-shadow: 0 8px 32px rgba(0,0,0,0.13);
+  transform: translateY(-6px) scale(1.03);
+}
+.item .numb {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #00529C;
+  min-width: 40px;
+  text-align: center;
+}
+.item .text {
+  font-size: 1.05rem;
+  color: #222;
+  font-weight: 400;
+}
+/* Fade-in helper */
+.fade-in { opacity: 0; transform: translateY(24px); transition: opacity 700ms ease-out, transform 700ms ease-out; }
+.fade-in.visible { opacity: 1; transform: translateY(0); }
+
+/* Responsive tuning */
+@media (max-width: 992px) {
+  .fdx-pageBanner--wrap { flex-direction: column; align-items: flex-start; gap: 12px; }
+  .page-title-lines { font-size: clamp(28px, 10vw, 48px); }
+}
+
+
+
