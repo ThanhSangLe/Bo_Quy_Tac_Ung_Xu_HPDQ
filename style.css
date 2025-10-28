@@ -1,3 +1,17 @@
+/* Đồng nhất font cho tiêu đề card staff-heading-box */
+.staff-heading-box h3 {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 1.1rem !important;
+  color: #0356a6 !important;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+/* Đảm bảo tiêu đề staff-heading-box luôn đậm, không đổi nét khi hover */
+.staff-heading-box h3,
+.staff-heading-box h3:hover {
+  font-weight: 700 !important;
+}
 body, html, h1, h2, h3, h4, h5, h6, p, .card, .lead, .intro-lead, .banner-content-wrap, .navbar, .container {
   font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
 }
