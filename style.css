@@ -8,7 +8,7 @@
 }
 /* Tăng font-size cho các thẻ p.mb-0 trong card-body (tầm nhìn, sứ mệnh, định vị, giá trị cốt lõi) */
 .card-body p.mb-0 {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 /* Font-face cho AvenirLTStd các biến thể cơ bản */
 @font-face {
@@ -155,6 +155,10 @@ html {
   color: #222;
   font-size: 1.2rem;
   list-style: disc;
+  text-align: justify;
+  text-justify: inter-word;
+  -webkit-hyphens: auto;
+  hyphens: auto;
 }
 @media (max-width: 991.98px) {
   .staff-block {
@@ -199,6 +203,14 @@ html {
   padding-right: 2.5rem !important;
   padding-top: 2rem !important;
   padding-bottom: 2rem !important;
+}
+#chuan-muc .flex-fill {
+  text-align: justify;
+  text-justify: inter-word;
+}
+#chuan-muc .core-value-desc {
+  hyphens: auto;
+  -webkit-hyphens: auto;
 }
 #chuan-muc .bg-secondary {
   font-size: 1.25rem;
