@@ -8,7 +8,7 @@
 }
 /* Tăng font-size cho các thẻ p.mb-0 trong card-body (tầm nhìn, sứ mệnh, định vị, giá trị cốt lõi) */
 .card-body p.mb-0 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 /* Font-face cho AvenirLTStd các biến thể cơ bản */
 @font-face {
