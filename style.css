@@ -470,6 +470,10 @@ ul, li {
 .color-white { color: #fff; }
 .text-primary { color: #00529C !important; }
 .bg-secondary { background: #00529C !important; }
+.collapsible { cursor: pointer; user-select: none; position: relative; }
+.collapsible:focus { outline: 3px solid rgba(255,255,255,0.6); outline-offset: 2px; }
+.collapsible .collapse-indicator { transition: transform .3s ease; }
+.collapsible.collapsed .collapse-indicator { transform: rotate(-90deg); }
 .text-white { color: #fff !important; }
 .rounded-3 { border-radius: 1rem !important; }
 .py-4 { padding-top: 1.5rem !important; padding-bottom: 1.5rem !important; }
