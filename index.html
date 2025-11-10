@@ -11,9 +11,9 @@
 
   <!-- Optional font -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
-
   <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body>
@@ -107,8 +107,9 @@
               </div>
 
                 <div class="col-12 col-md-6 col-lg-6">
-                <div class="card h-100 ">
+                <div class="card h-100 ">        
                   <div class="card-body text-center">
+                    
                     <h3 class="h6 text-primary">ĐỊNH VỊ</h3>
                     <p class="mb-0">Tập đoàn Hòa Phát – Thương hiệu Việt Nam – Đẳng cấp toàn cầu.</p>
                   </div>
@@ -134,9 +135,10 @@
       <section id="chuan-muc" class="mb-5">
         <div class="card border-0">
           <div class="card-body p-0">
-            <div class="bg-secondary text-center text-white rounded-3 py-4 mb-4">
+            <div class="bg-secondary text-center text-white rounded-3 py-4 mb-4 collapsible" role="button" tabindex="0" data-bs-toggle="collapse" data-bs-target="#coreValuesContent" aria-expanded="true" aria-controls="coreValuesContent">
               <h2 class="h4 mb-0 section-heading">GIÁ TRỊ CỐT LÕI CỦA CÔNG TY</h2>
             </div>
+            <div id="coreValuesContent" class="collapse show">
             <ul class="list-unstyled mb-0">
               <li class="row gx-4 gy-0 align-items-stretch mb-3">
                 <div class="col-12 col-md-6 d-flex">
@@ -180,6 +182,7 @@
                 </div>
               </li>
             </ul>
+            </div>
           </div>
         </div>
       </section>
@@ -188,9 +191,10 @@
           style="max-height:400px; object-fit:cover; width:100%;" />
       </div>
       <section id="chuan-hanh-vi-lanh-dao" class="mb-5">
-        <div class="bg-secondary text-center text-white rounded-3 py-4 mb-4">
+        <div class="bg-secondary text-center text-white rounded-3 py-4 mb-4 collapsible" role="button" tabindex="0" data-bs-toggle="collapse" data-bs-target="#leaderBehaviorContent" aria-expanded="true" aria-controls="leaderBehaviorContent">
           <h2 class="h4 mb-0 section-heading">CHUẨN MỰC HÀNH VI CỦA LÃNH ĐẠO, QUẢN LÝ</h2>
         </div>
+        <div id="leaderBehaviorContent" class="collapse show">
         <div class="row g-4">
           <div class="col-12 col-lg-4">
             <div class="card h-100 shadow-sm border-0 staff-block">
@@ -316,15 +320,17 @@
             </div>
           </div>
         </div>
+        </div>
       </section>
       <div class="container mb-5">
         <img src="images/anh/4.jpg" alt="Ảnh minh họa 4" class="img-fluid rounded-3 shadow-sm"
           style="max-height:400px; object-fit:cover; width:100%;" />
       </div>
       <section id="chuan-hanh-vi-nhan-vien" class="mb-5">
-        <div class="bg-secondary text-center text-white rounded-3 py-4 mb-4">
-          <h2 class="h4 mb-0 section-heading">CHUẨN MỰC HÀNH VI CỦA NHÂN VIÊN</h2>
+      <div class="bg-secondary text-center text-white rounded-3 py-4 mb-4 collapsible" role="button" tabindex="0" data-bs-toggle="collapse" data-bs-target="#employeeBehaviorContent" aria-expanded="true" aria-controls="employeeBehaviorContent">
+        <h2 class="h4 mb-0 section-heading">CHUẨN MỰC HÀNH VI CỦA NHÂN VIÊN</h2>
         </div>
+        <div id="employeeBehaviorContent" class="collapse show">
         <div class="row g-4">
           <div class="col-12 col-lg-4">
             <div class="card h-100 shadow-sm border-0 staff-block">
@@ -423,15 +429,17 @@
             </div>
           </div>
         </div>
+        </div>
       </section>
       <div class="container mb-5">
         <img src="images/anh/3.jpg" alt="Ảnh minh họa 3" class="img-fluid rounded-3 shadow-sm"
           style="max-height:450px; object-fit:cover; width:100%;" />
       </div>
       <section id="chuan-muc-chung" class="mb-5">
-        <div class="bg-secondary text-center text-white rounded-3 py-4 mb-4">
-          <h2 class="h4 mb-0 section-heading">CHUẨN MỰC HÀNH VI CHUNG</h2>
+      <div class="bg-secondary text-center text-white rounded-3 py-4 mb-4 collapsible" role="button" tabindex="0" data-bs-toggle="collapse" data-bs-target="#commonStandardsContent" aria-expanded="true" aria-controls="commonStandardsContent">
+        <h2 class="h4 mb-0 section-heading">CHUẨN MỰC HÀNH VI CHUNG</h2>
         </div>
+        <div id="commonStandardsContent" class="collapse show">
         <div class="row g-4">
           <div class="col-12 col-lg-6">
             <div class="card h-100 shadow-sm border-0 staff-block">
@@ -669,15 +677,17 @@
             </div>
           </div>
         </div>
+        </div>
       </section>
       <div class="container mb-5">
         <img src="images/anh/5.jpg" alt="Ảnh minh họa 5" class="img-fluid rounded-3 shadow-sm"
           style="max-height:450px; object-fit:cover; width:100%;" />
       </div>
       <section id="cam-ket" class="mb-5">
-        <div class="bg-secondary text-center text-white rounded-3 py-4 mb-4">
-          <h2 class="h4 mb-0 section-heading">CAM KẾT CỦA CÔNG TY VỀ BỘ QUY TẮC ỨNG XỬ</h2>
+      <div class="bg-secondary text-center text-white rounded-3 py-4 mb-4 collapsible" role="button" tabindex="0" data-bs-toggle="collapse" data-bs-target="#commitmentsContent" aria-expanded="true" aria-controls="commitmentsContent">
+        <h2 class="h4 mb-0 section-heading">CAM KẾT CỦA CÔNG TY VỀ BỘ QUY TẮC ỨNG XỬ</h2>
         </div>
+        <div id="commitmentsContent" class="collapse show">
         <div class="row g-4">
           <div class="col-12 col-lg-6">
             <div class="card h-100 shadow-sm border-0 staff-block">
@@ -777,6 +787,7 @@
               </div>
             </div>
           </div>
+        </div>
         </div>
       </section>
       <div class="container mb-5">

@@ -1,5 +1,35 @@
 // script.js - smooth scroll + intersection observer for fade-in
 document.addEventListener('DOMContentLoaded', () => {
+  // Keyboard accessibility for collapsible section headers
+  document.querySelectorAll('.collapsible').forEach(header => {
+    header.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        header.click();
+      }
+    });
+  });
+
+  // Sync chevron rotation state by toggling 'collapsed' class manually after Bootstrap collapse events
+  const syncChevron = (trigger) => {
+    const targetSel = trigger.getAttribute('data-bs-target');
+    if (!targetSel) return;
+    const target = document.querySelector(targetSel);
+    if (!target) return;
+    if (target.classList.contains('show')) {
+      trigger.classList.remove('collapsed');
+      trigger.setAttribute('aria-expanded', 'true');
+    } else {
+      trigger.classList.add('collapsed');
+      trigger.setAttribute('aria-expanded', 'false');
+    }
+  };
+  document.querySelectorAll('.collapsible').forEach(c => syncChevron(c));
+  document.querySelectorAll('.collapsible').forEach(c => {
+    c.addEventListener('click', () => {
+      setTimeout(()=>syncChevron(c), 250);
+    });
+  });
   // Smooth scrolling for in-page anchors
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
